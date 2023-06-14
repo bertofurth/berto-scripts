@@ -7,13 +7,12 @@ create corresponding plain text files containing recognized text.
 
 TODO - Doesn't handle spaces in filenames properly.
 
-Assumes that the following tools are installed 
+Assumes that the following packages are installed 
 
-
-poppler-tools (to convert pdfs to image files)
-tesseract-ocr
-tesseract-ocr-traineddata-english  (see below)
-tesseract-ocr-traineddata-orientation_and_script_detection
+    poppler-tools
+    tesseract-ocr
+    tesseract-ocr-traineddata-english  
+    tesseract-ocr-traineddata-orientation_and_script_detection
 
 I would suggest making sure that the "best" trained data from
 
